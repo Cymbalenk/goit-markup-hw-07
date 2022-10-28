@@ -15,8 +15,6 @@
    width: 44px;
   height: 44px;
  
-  margin-left: 10px;
- 
  color:$color;
  background-color: transparent;
  border-radius: 50%;
@@ -26,15 +24,21 @@
  transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
  
- &:last-child{
-   margin-left: 0;
- }
+
  
  &:hover,
  &:focus {
   background-color:$accent-color;
    color:$three-text-color;
   
+ }
+
+  }
+  .social__item {
+ margin-right: 10px;
+
+     &:last-child {
+   margin-right: 0;
  }
 
   }
