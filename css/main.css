@@ -417,7 +417,7 @@ body {
   min-width: 1600px;
   height: 600px;
   margin: 0 auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -666,7 +666,7 @@ body {
 }
 .check__checkbox:checked + .check__icon {
   background-color: #188ce8;
-  background-image: url(/images/icon.svg/icon\ check.svg);
+  background-image: url(../../images/icon.svg/icon\ check.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: #188ce8;
@@ -778,19 +778,19 @@ body {
 }
 
 .icon-antenna::before {
-  background-image: url(/images/icon.svg/antenna\ 1.svg);
+  background-image: url(../../images/icon.svg/antenna\ 1.svg);
 }
 
 .icon-clock::before {
-  background-image: url(/images/icon.svg/clock\ 1.svg);
+  background-image: url(../../images/icon.svg/clock\ 1.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(/images/icon.svg/diagram\ 1.svg);
+  background-image: url(../../images/icon.svg/diagram\ 1.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(/images/icon.svg/astronaut\ 1.svg);
+  background-image: url(../../images/icon.svg/astronaut\ 1.svg);
 }
 
 .section-work {
